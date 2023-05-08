@@ -1,0 +1,89 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 800px;
+    min-height: 500px;
+    margin: 16px auto;
+}
+
+.card {
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 20%;
+}
+
+h1 {
+    color: crimson;
+    font-weight: 3500;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 60px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    box-shadow: 2px 2px 4px;
+    margin-left: 280px;
+}
+
+.otter {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    margin-left: 280px;
+    box-shadow: 10px 10px 15px;
+}
+
+.otter:hover {
+    transform: scale(1.2);
+}
+
+p {
+    font-weight: 900;
+    background-color: rgb(222, 135, 196);
+    margin: 60px;
+    border-radius: 30%;
+    text-align: center;
+    margin: 20px 80px 20px;
+    max-width: 1000px;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 200px;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 30%;
+    background-color: blueviolet;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    background-color: dodgerblue;
+    transition: 1s;
+    box-shadow: 4px 4px 5px;
+}
+
+li {
+    margin-left: 100px;
+    color: crimson;
+    font-size: larger;
+    font-weight: bolder;
+    list-style: none;
+}
+
+@media screen and (max-width: 542px) {
+    .container {
+        width: 200px;
+    }
+}
